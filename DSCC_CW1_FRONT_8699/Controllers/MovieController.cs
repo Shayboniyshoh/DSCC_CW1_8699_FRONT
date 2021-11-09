@@ -15,7 +15,7 @@ namespace DSCC_CW1_FRONT_8699.Controllers
     public class MovieController : Controller
     {
         //Hosted web API REST Service base url 
-        string Baseurl = "https://localhost:44300/";
+        string Baseurl = "http://00008699-api-dev.us-east-2.elasticbeanstalk.com/";
         // GET: Movie
         public async Task<ActionResult> Index()
         {
